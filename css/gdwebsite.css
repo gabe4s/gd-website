@@ -1,0 +1,99 @@
+html {
+
+}
+
+body {
+  background-color: #555;
+  font-family: 'Poiret One', cursive;
+  background: url('../img/gd_mt_massive.jpg') no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover; 
+}
+
+body, html {
+  overflow-y: auto;
+}
+
+.navbar {
+  position: fixed;
+  width: 100%;
+  font-weight: bold;
+  z-index: 1337;
+}
+
+.navbar-collapse.collapse{
+  display: block !important;
+}
+
+.navbar-nav>li, .navbar-nav{
+  float: left !important;
+}
+
+.navbar-nav.navbar-right:last-child{
+  margin-right: -15px !important;
+}
+
+.navbar-right{
+  float: right !important;
+}
+
+.logo-container {
+  position: absolute;
+  top: 85%;
+  height: 15%;
+  width: 100%;
+}
+.gd-logo {
+  float: right;
+  height: 100%;
+}
+
+.container {
+  position: absolute;
+  top: 100%;
+  width: 100%;
+  background-image: url("../img/texture.jpg");
+  box-shadow: 0px  90px 100px 100px #000000;
+}
+
+.jumbotron {
+  background-color:rgba(0, 0, 0, 0.0);
+}
+
+h1, h2 {
+  text-align: center;
+  font-weight: bold;
+}
+
+.info-paragraph {
+  font-size: 15pt;
+  padding: 0px 15px;
+  text-indent: 25px;
+}
+
+.resume-jumbotron {
+  padding-bottom: 0;
+
+}
+
+.resume-paragraph {
+  font-size: 15pt;
+  text-align: center;
+  font-style: italic;
+}
+
+.resumeButton {
+  width: 100%;
+  font-size: 18pt;
+  font-weight: bold;
+  border-radius: 5px;
+  border: 2px solid black;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+.project-img {
+  border: 1px solid #333;
+}
