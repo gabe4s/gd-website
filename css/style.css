@@ -74,15 +74,8 @@ h1, h2 {
   text-indent: 25px;
 }
 
-.resume-jumbotron {
-  padding-bottom: 0;
-
-}
-
-.resume-paragraph {
-  font-size: 15pt;
-  text-align: center;
-  font-style: italic;
+.project-block {
+  padding-bottom: 36px;
 }
 
 .project-img {
