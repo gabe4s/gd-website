@@ -5,12 +5,11 @@ html {
 body {
   background-color: #555;
   font-family: 'Poiret One', cursive;
-  background: url('../img/gd_mt_massive.jpg') no-repeat center center fixed;
+  background: url('../img/gd-oregon.jpg') no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-  padding-bottom: 200px;
 }
 
 body, html {
