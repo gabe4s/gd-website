@@ -87,10 +87,11 @@ h1, h2 {
 
 .project-img {
   border: 1px solid #333;
+  float: left;
 }
 
 .link-section {
-  padding: 0px 40px;
+  padding: 20px 40px;
   font-size: 16pt;
   font-weight: bold;
   margin: auto;
