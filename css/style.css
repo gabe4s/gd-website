@@ -88,6 +88,7 @@ h1, h2 {
 .project-img {
   border: 1px solid #333;
   float: left;
+  margin-bottom: 10px;
 }
 
 .link-section {
