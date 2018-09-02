@@ -1,133 +1,166 @@
 <!doctype html>
 <html>
 
-  <head>
-    <title>Gabe Douda</title>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <link href="https://fonts.googleapis.com/css?family=Poiret+One" rel="stylesheet">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="icon" type="image/x-icon" href="img/favicon.ico" />
-  </head>
+<head>
+  <title>Gabe Douda</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <link href="https://fonts.googleapis.com/css?family=Poiret+One" rel="stylesheet">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="icon" type="image/x-icon" href="img/favicon.ico" />
+</head>
 
-  <body>
+<body>
 
-    <nav class="navbar navbar-inverse">
-      <div class="container-fluid">
-        <ul class="nav navbar-nav">
-          <li><a href="#">Top</a></li>
-          <li><a href="#aboutme">About Me</a></li>
-          <li><a href="#projects">Projects</a></li>
-        </ul>
-      </div>
-    </nav>
+  <nav class="navbar navbar-inverse">
+    <div class="container-fluid">
+      <ul class="nav navbar-nav">
+        <li>
+          <a href="#">Top</a>
+        </li>
+        <li>
+          <a href="#aboutme">About Me</a>
+        </li>
+        <li>
+          <a href="#projects">Projects</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
 
-    <div class="logo-container">
-      <img class="gd-logo" src="img/gwd_logo.png"/>
+  <div class="logo-container">
+    <img class="gd-logo" src="img/gwd_logo.png" />
+  </div>
+
+  <div class="container">
+    <div class="jumbotron" id="aboutme">
+      <h1>About Me</h1>
     </div>
 
-    <div class="container">
-      <div class="jumbotron" id="aboutme">
-        <h1>About Me</h1>
+    <div class="row">
+      <div class="col-sm-6">
+        <h2>Bio</h2>
+        <p class="info-paragraph">
+          Ever since I was a young child, I have always had a large interest in all things technology. While the days of sliding floppy
+          disks into the computer in order to run basic software may be over, my days of using software are far from. Somewhere
+          in my middle school years I had it in my mind that I was going to be a helicopter pilot. I had no other idea what
+          in the world I wanted to do following high school. That is, until I randomly decided to start playing around in
+          Visual Basic (don't judge). After countless hours of building my own web browsers and calculators and things that
+          were already invented, I knew quite well what I wanted to do after graduating high school.
+        </p>
+        <p class="info-paragraph">
+          Throughout my final years of high school, I took every computer class I could. From Visual Basic to Java classes, to hardware
+          and graphic design classes, I did it all. Upon graduating, I attended University of North Dakota for two years
+          with intent of getting a B.S. in Computer Science. During no part of the two years did my interest in programming
+          fade. I continued to do my own side projects and play around with various code and technologies. However, I decided
+          in 2013 that North Dakota was not for me, and moved out to Fort Collins Colorado. I took a year and a half off
+          from school in order to be approved for in-state tuition rates, but was itching to return to school and finish
+          my degree. As it stands currently, I have my Bachelor's degree and am working full time as a Software Engineer
+          while pondering the idea of furthering my education.
+        </p>
+      </div>
+
+      <div class="col-sm-6">
+        <h2>Interests/Skills</h2>
+        <p class="info-paragraph">
+          My interests and skills when it comes to Computer Science are certainly quite expansive. I am yet to find an area that I
+          do not like. I have done much work lately in all things web application. From front-end, to back-end, databases,
+          APIs, and more! The feeling of being able to put together an entire web application single handedly is a wondrous
+          one. I enjoy the design phase and making all the pieces work together too, and of course the multi-part troubleshooting
+          involved in the full picture.
+        </p>
+        <p class="info-paragraph">
+          Through a class I took at CSU, I also fell in love with data engineering. Learning how to process massive sets of data gave
+          insight into what is required out of companies and other entities that need to be able to not just store large
+          amounts of data, but retrieve and utilize the data as well. The inspired me to go beyond the class and to investigate
+          and practice with additional frameworks for this variety of programming. As the world becomes more reliant on data
+          and data processing, the improvements and uses for this field will only continue to grow.
+        </p>
+        <p class="info-paragraph">
+          These just happen to be the forms of programming that I have dealt with most beyond the school induced console applications,
+          but I know there are many more facets of Computer Science I will enjoy. I am very open minded to trying out all
+          different styles and languages.
+        </p>
+      </div>
+
+    </div>
+
+    <div class="row">
+      <div class="jumbotron" id="projects">
+        <h1>Projects</h1>
+      </div>
+    </div>
+
+    <div class="project-block">
+
+      <div class="row">
+        <div class="col-sm-8">
+          <h2>Taxi Fare Estimator</h2>
+        </div>
+        <div class="col-sm-4">
+        </div>
+      </div>
+
+
+      <div class="row">
+        <div class="col-sm-8">
+          <p class="info-paragraph">
+            This Taxi Fare Estimator all started off with revolving around big data. The New York City government provides over 20 Gb
+            of yellow cab taxi data per year. After thoroughly analyzing all of the 100+ million entries for 2015, a friend
+            and I calculated a linear regression formula and build a website. This website allowed for New York City visitors
+            to get a fair estimate for their desired taxi ride.
+          </p>
+          <div class="link-section">
+            <a href="https://github.com/Brad--/taxi-site">GitHub - Taxi Site</a>
+            <br/>
+            <a href="https://github.com/gabe4s/taxi-fare-map-reduce">GitHub - Taxi MapReduce</a>
+            <br/>
+            <br/>
+            <a href="/taxi">View Site</a>
+          </div>
+        </div>
+
+        <div class="col-sm-4">
+          <a href="img/projects/taxifare.png">
+            <img src="img/projects/taxifare.png" class="img-rounded project-img" width="100%" />
+          </a>
+        </div>
+      </div>
+
+    </div>
+
+    <div class="project-block">
+
+      <div class="row">
+        <div class="col-sm-4">
+        </div>
+        <div class="col-sm-8">
+          <h2>Raspberry Pi Server</h2>
+        </div>
       </div>
 
       <div class="row">
-        <div class="col-sm-6">
-          <h2>Bio</h2>
+        <div class="col-sm-4">
+          <a href="img/projects/piserver.png">
+            <img src="img/projects/piserver.png" class="img-rounded project-img" width="100%" />
+          </a>
+        </div>
+
+        <div class="col-sm-8">
           <p class="info-paragraph">
-            Ever since I was a young child, I have always had a large interest in all things technology. While the days of sliding floppy disks into the computer in order to run basic software may be over, my days of using software are far from. Somewhere in my middle school years I had it in my mind that I was going to be a helicopter pilot. I had no other idea what in the world I wanted to do following high school. That is, until I randomly decided to start playing around in Visual Basic (don't judge). After countless hours of building my own web browsers and calculators and things that were already invented, I knew quite well what I wanted to do after graduating high school.
+            As an owner of several Raspberry Pi computers, I wanted to utilize one for a simple web based home file server. There wasn't
+            anything out there that caught my eye, so I decided to build my own! Using this server, you can easily upload,
+            move, and organize files and folders onto the server from other devices within the network.
           </p>
-          <p class="info-paragraph">
-            Throughout my final years of high school, I took every computer class I could. From Visual Basic to Java classes, to hardware and graphic design classes, I did it all. Upon graduating, I attended University of North Dakota for two years with intent of getting a B.S. in Computer Science. During no part of the two years did my interest in programming fade. I continued to do my own side projects and play around with various code and technologies. However, I decided in 2013 that North Dakota was not for me, and moved out to Fort Collins Colorado. I took a year and a half off from school in order to be approved for in-state tuition rates, but was itching to return to school and finish my degree. As it stands currently, I have my Bachelor's degree and am working full time as a Software Engineer while pondering the idea of furthering my education.
-          </p>
-        </div>
-
-        <div class="col-sm-6">
-          <h2>Interests/Skills</h2>
-          <p class="info-paragraph">
-            My interests and skills when it comes to Computer Science are certainly quite expansive. I am yet to find an area that I do not like. I have done much work lately in all things web application. From front-end, to back-end, databases, APIs, and more! The feeling of being able to put together an entire web application single handedly is a wondrous one. I enjoy the design phase and making all the pieces work together too, and of course the multi-part troubleshooting involved in the full picture.
-          </p>
-          <p class="info-paragraph">
-            Through a class I took at CSU, I also fell in love with data engineering. Learning how to process massive sets of data gave insight into what is required out of companies and other entities that need to be able to not just store large amounts of data, but retrieve and utilize the data as well. The inspired me to go beyond the class and to investigate and practice with additional frameworks for this variety of programming. As the world becomes more reliant on data and data processing, the improvements and uses for this field will only continue to grow.
-          </p>
-          <p class="info-paragraph">
-            These just happen to be the forms of programming that I have dealt with most beyond the school induced console applications, but I know there are many more facets of Computer Science I will enjoy. I am very open minded to trying out all different styles and languages.
-          </p>
-        </div>
-
-      </div>
-
-      <div class="row">
-        <div class="jumbotron" id="projects">
-          <h1>Projects</h1>
-        </div>
-      </div>
-
-      <div class="project-block">
-
-        <div class="row">
-          <div class="col-sm-8">
-            <h2>Taxi Fare Estimator</h2>
-          </div>
-          <div class="col-sm-4">
-          </div>
-        </div>
-
-
-        <div class="row">
-          <div class="col-sm-8">
-            <p class="info-paragraph">
-              This Taxi Fare Estimator all started off with revolving around big data. The New York City government provides over 20 Gb of yellow cab taxi data per year. After thoroughly analyzing all of the 100+ million entries for 2015, a friend and I calculated a linear regression formula and build a website. This website allowed for New York City visitors to get a fair estimate for their desired taxi ride.
-            </p>
-            <div class="link-section">
-              <a href="https://github.com/Brad--/taxi-site">GitHub - Taxi Site</a>
-              <br/>
-              <a href="https://github.com/gabe4s/taxi-fare-map-reduce">GitHub - Taxi MapReduce</a>
-              <br/>
-              <br/>
-              <a href="/taxi">View Site</a>
-            </div>
-          </div>
-          
-          <div class="col-sm-4">
-            <a href="img/projects/taxifare.png">
-              <img src="img/projects/taxifare.png" class="img-rounded project-img" width="100%"/>
-            </a>
-          </div>
-        </div>
-
-      </div>
-
-      <div class="project-block">
-
-        <div class="row">
-          <div class="col-sm-4">
-          </div>
-          <div class="col-sm-8">
-            <h2>Raspberry Pi Server</h2>
-          </div>
-        </div>
-        
-        <div class="row">
-          <div class="col-sm-4">
-            <a href="img/projects/piserver.png">
-              <img src="img/projects/piserver.png" class="img-rounded project-img" width="100%"/>
-            </a>
-          </div>
-          
-          <div class="col-sm-8">
-            <p class="info-paragraph">
-              As an owner of several Raspberry Pi computers, I wanted to utilize one for a simple web based  home file server. There wasn't anything out there that caught my eye, so I decided to build my own! Using this server, you can easily upload, move, and organize files and folders onto the server from other devices within the network.
-            </p>
-            <div class="link-section">
+          <div class="link-section">
             <a href="https://github.com/gabe4s/pile-server">GitHub - Raspberry Pi Server</a>
           </div>
         </div>
       </div>
-  
+
     </div>
 
     <div class="project-block">
@@ -144,20 +177,25 @@
       <div class="row">
         <div class="col-sm-8">
           <p class="info-paragraph">
-            The domain dialer project was just another one of my fun side projects. I had the idea that instead of looking up a company's phone number online to call them, it would be so much easier if you could just type in their website address! Dig2Dial works by looking up and parsing a specifically formatted TXT record in the domain to retrieve the phone number to call (as long as the record is present).
+            The domain dialer project was just another one of my fun side projects. I had the idea that instead of looking up a company's
+            phone number online to call them, it would be so much easier if you could just type in their website address!
+            Dig2Dial works by looking up and parsing a specifically formatted TXT record in the domain to retrieve the phone
+            number to call (as long as the record is present).
           </p>
           <div class="link-section">
             <a href="https://github.com/gabe4s/domain-dialer-android">GitHub - Domain Dialer</a>
             <br/>
           </div>
         </div>
-        
+
         <div class="col-sm-4">
           <a href="img/projects/dialer1.png">
-            <img src="img/projects/dialer1.png" class="img-rounded project-img" width="50%" style="border-right: 0; border-top-right-radius: 0; border-bottom-right-radius: 0;"/>
+            <img src="img/projects/dialer1.png" class="img-rounded project-img" width="50%" style="border-right: 0; border-top-right-radius: 0; border-bottom-right-radius: 0;"
+            />
           </a>
           <a href="img/projects/dialer2.png">
-            <img src="img/projects/dialer2.png" class="img-rounded project-img" width="50%" style="border-left: 0; border-top-left-radius: 0; border-bottom-left-radius: 0;"/>
+            <img src="img/projects/dialer2.png" class="img-rounded project-img" width="50%" style="border-left: 0; border-top-left-radius: 0; border-bottom-left-radius: 0;"
+            />
           </a>
         </div>
       </div>
@@ -173,26 +211,28 @@
           <h2>IRC Chat Logger</h2>
         </div>
       </div>
-      
+
       <div class="row">
         <div class="col-sm-4">
           <a href="img/projects/irclogger.png">
-            <img src="img/projects/irclogger.png" class="img-rounded project-img" width="100%"/>
+            <img src="img/projects/irclogger.png" class="img-rounded project-img" width="100%" />
           </a>
         </div>
-        
+
         <div class="col-sm-8">
           <p class="info-paragraph">
-            Stemming from a desire to be able to record IRC chat channel logs, I decided to build a full web application around this idea. It includes the ability to send new messages to the server via HTTP POST, and display them back to the user        either by day, or by a set of search criteria, such as a date range or terms.
+            Stemming from a desire to be able to record IRC chat channel logs, I decided to build a full web application around this
+            idea. It includes the ability to send new messages to the server via HTTP POST, and display them back to the
+            user either by day, or by a set of search criteria, such as a date range or terms.
           </p>
           <div class="link-section">
-          <a href="https://github.com/gabe4s/twitch-chat-logger">GitHub - Chat Logger</a>
+            <a href="https://github.com/gabe4s/twitch-chat-logger">GitHub - Chat Logger</a>
+          </div>
         </div>
       </div>
+
     </div>
 
-  </div>
-
-  </body>
+</body>
 
 </html>
